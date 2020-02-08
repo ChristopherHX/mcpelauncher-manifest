@@ -6,8 +6,10 @@ if(NOT CMAKE_SIZEOF_VOID_P EQUAL 4)
     set(CMAKE_ASM_FLAGS "${CMAKE_ASM_FLAGS} -m32")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m32")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32")
+    message(WARNING "32 bit toolchain required, 64 bit is currently unsupported")
 endif()
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -fno-delete-null-pointer-checks")
+set(CMAKE_CXX_STANDARD_REQUIRED 14)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-delete-null-pointer-checks")
 
 string(TIMESTAMP BUILD_TIMESTAMP "%Y%m%d-%H%M%S" UTC)
 
