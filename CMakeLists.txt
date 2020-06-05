@@ -83,6 +83,7 @@ if (BUILD_CLIENT)
         add_subdirectory(linux-gamepad)
     elseif (GAMEWINDOW_SYSTEM STREQUAL "GLFW")
         add_subdirectory(glfw)
+        add_library(glfw3 ALIAS glfw)
     endif()
 endif()
 
