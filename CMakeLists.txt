@@ -70,7 +70,6 @@ if (USE_OWN_CURL)
 endif()
 
 add_subdirectory(json)
-add_subdirectory(glfw)
 
 option(USE_GAMECONTROLLERDB "Downloads gamecontrollerdb.txt from gabomdq/SDL_GameControllerDB" ON)
 if (USE_GAMECONTROLLERDB)
