@@ -69,7 +69,8 @@ if (USE_OWN_CURL)
     include(ext/curl.cmake)
 endif()
 
-include(ext/json.cmake)
+add_subdirectory(json)
+add_subdirectory(glfw)
 
 option(USE_GAMECONTROLLERDB "Downloads gamecontrollerdb.txt from gabomdq/SDL_GameControllerDB" ON)
 if (USE_GAMECONTROLLERDB)
@@ -82,7 +83,7 @@ if (BUILD_CLIENT)
         add_subdirectory(eglut)
         add_subdirectory(linux-gamepad)
     elseif (GAMEWINDOW_SYSTEM STREQUAL "GLFW")
-        include(ext/glfw.cmake)
+        add_subdirectory(glfw)
     endif()
 endif()
 
