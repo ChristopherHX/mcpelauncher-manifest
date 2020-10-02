@@ -96,6 +96,8 @@ if (APPLE)
     add_subdirectory(epoll-shim)
 endif()
 
+add_subdirectory(minecraft-symbols)
+
 add_subdirectory(logger)
 add_subdirectory(base64)
 add_subdirectory(file-util)

@@ -79,3 +79,7 @@
 [submodule "libjnivm"]
 	path = libjnivm
 	url = https://github.com/ChristopherHX/libjnivm.git
+
+[submodule "minecraft-symbols"]
+	path = minecraft-symbols
+	url = https://github.com/ChristopherHX/minecraft-symbols.git
