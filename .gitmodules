@@ -1,81 +1,81 @@
 [submodule "logger"]
 	path = logger
-	url = ../logger.git
+	url = ../../minecraft-linux/logger.git
 [submodule "base64"]
 	path = base64
-	url = ../base64.git
+	url = ../../minecraft-linux/base64.git
 [submodule "file-util"]
 	path = file-util
-	url = ../file-util.git
+	url = ../../minecraft-linux/file-util.git
 [submodule "properties-parser"]
 	path = properties-parser
-	url = ../properties-parser.git
+	url = ../../minecraft-linux/properties-parser.git
 [submodule "simple-ipc"]
 	path = simple-ipc
 	url = ../../MCMrARM/simple-ipc.git
 [submodule "daemon-utils"]
 	path = daemon-utils
-	url = ../daemon-utils.git
+	url = ../../minecraft-linux/daemon-utils.git
 [submodule "msa-daemon-client"]
 	path = msa-daemon-client
-	url = ../msa-daemon-client.git
+	url = ../../minecraft-linux/msa-daemon-client.git
 [submodule "eglut"]
 	path = eglut
-	url = ../eglut.git
+	url = ../../minecraft-linux/eglut.git
 [submodule "linux-gamepad"]
 	path = linux-gamepad
 	url = ../../MCMrARM/linux-gamepad.git
 [submodule "game-window"]
 	path = game-window
-	url = ../game-window.git
+	url = ../../minecraft-linux/game-window.git
 [submodule "file-picker"]
 	path = file-picker
-	url = ../file-picker.git
+	url = ../../minecraft-linux/file-picker.git
 [submodule "cll-telemetry"]
 	path = cll-telemetry
-	url = ../cll-telemetry.git
+	url = ../../minecraft-linux/cll-telemetry.git
 [submodule "minecraft-imported-symbols"]
 	path = minecraft-imported-symbols
-	url = ../minecraft-imported-symbols.git
+	url = ../../minecraft-linux/minecraft-imported-symbols.git
 [submodule "mcpelauncher-common"]
 	path = mcpelauncher-common
-	url = ../mcpelauncher-common.git
+	url = ../../minecraft-linux/mcpelauncher-common.git
 [submodule "mcpelauncher-core"]
 	path = mcpelauncher-core
-	url = ../mcpelauncher-core.git
+	url = ../../minecraft-linux/mcpelauncher-core.git
 [submodule "mcpelauncher-client"]
 	path = mcpelauncher-client
-	url = ../mcpelauncher-client.git
+	url = ../../minecraft-linux/mcpelauncher-client.git
 [submodule "arg-parser"]
 	path = arg-parser
-	url = ../arg-parser.git
+	url = ../../minecraft-linux/arg-parser.git
 [submodule "mcpelauncher-linux-bin"]
 	path = mcpelauncher-linux-bin
-	url = ../mcpelauncher-linux-bin.git
+	url = ../../minecraft-linux/mcpelauncher-linux-bin.git
 [submodule "epoll-shim"]
 	path = epoll-shim
-	url = ../epoll-shim.git
+	url = ../../minecraft-linux/epoll-shim.git
 [submodule "osx-elf-header"]
 	path = osx-elf-header
-	url = ../osx-elf-header.git
+	url = ../../minecraft-linux/osx-elf-header.git
 [submodule "mcpelauncher-mac-bin"]
 	path = mcpelauncher-mac-bin
-	url = ../mcpelauncher-mac-bin.git
+	url = ../../minecraft-linux/mcpelauncher-mac-bin.git
 [submodule "fake-jni"]
 	path = fake-jni
-	url = ../fake-jni.git
+	url = ../../minecraft-linux/fake-jni.git
 [submodule "baron"]
 	path = baron
-	url = ../baron.git
+	url = ../../minecraft-linux/baron.git
 [submodule "android-support-headers"]
 	path = android-support-headers
-	url = ../android-support-headers.git
+	url = ../../minecraft-linux/android-support-headers.git
 [submodule "libc-shim"]
 	path = libc-shim
-	url = ../libc-shim.git
+	url = ../../minecraft-linux/libc-shim.git
 [submodule "mcpelauncher-linker"]
 	path = mcpelauncher-linker
-	url = ../mcpelauncher-linker.git
+	url = ../../minecraft-linux/mcpelauncher-linker.git
 [submodule "mcpelauncher-webview"]
 	path = mcpelauncher-webview
 	url = https://github.com/freundTech/mcpelauncher-webview
